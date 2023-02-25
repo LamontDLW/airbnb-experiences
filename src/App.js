@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
+import Footer from './components/Footer';
 import './index.css';
 import data from "./data"
 
@@ -18,6 +19,7 @@ export default function App() {
       <section className='cards-list'>
         {cards}
       </section>
+      <Footer />
     </div>
   );
 }
